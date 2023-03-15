@@ -1,6 +1,6 @@
 const character = 'mario';
 const characters = 'gaga';
-
+//poruka
 console.log(character);
 console.log(characters);
 
