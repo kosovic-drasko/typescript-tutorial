@@ -32,3 +32,9 @@ console.log(mixed);
 let niz:{ime:string,godine:number};
 niz={ime:'luka',godine:50};
 console.log(niz)
+
+//funkcije
+let add=(a:number,b:number,c?:string)=>{
+  console.log('iznos je:  ',a+b);
+}
+add(2,8);

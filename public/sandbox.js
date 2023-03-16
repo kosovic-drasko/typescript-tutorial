@@ -28,3 +28,8 @@ console.log(mixed);
 let niz;
 niz = { ime: 'luka', godine: 50 };
 console.log(niz);
+//funkcije
+let add = (a, b, c) => {
+    console.log('iznos je:  ', a + b);
+};
+add(2, 8);
