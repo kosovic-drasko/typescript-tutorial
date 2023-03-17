@@ -34,7 +34,26 @@ niz={ime:'luka',godine:50};
 console.log(niz)
 
 //funkcije
-let add=(a:number,b:number,c?:string)=>{
-  console.log('iznos je:  ',a+b);
+let add=(a:number,b:number,c:number|string=10):void=>{
+  console.log('iznos je:  ',a,b);
+  console.log(c);
 }
-add(2,8);
+add(2,8,20);
+
+const funkcija=(a:number,b:number):number=>{
+  return a+b;
+
+}
+let result=funkcija(4,3);
+console.log(result);
+const izvrsi=(a:number,b:number)=>{
+console.log(izvrsi);
+}
+
+// let logDetails:(obj:{name:string,age:number})=>void;
+//   type person={name:string,age:number};
+//   logDetails=(drasko:person)=>{
+//     console.log(`$(drasko.name)`);
+//   }
+//   logDetails('gaga');
+

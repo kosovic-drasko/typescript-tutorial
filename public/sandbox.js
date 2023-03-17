@@ -29,7 +29,22 @@ let niz;
 niz = { ime: 'luka', godine: 50 };
 console.log(niz);
 //funkcije
-let add = (a, b, c) => {
-    console.log('iznos je:  ', a + b);
+let add = (a, b, c = 10) => {
+    console.log('iznos je:  ', a, b);
+    console.log(c);
 };
-add(2, 8);
+add(2, 8, 20);
+const funkcija = (a, b) => {
+    return a + b;
+};
+let result = funkcija(4, 3);
+console.log(result);
+const izvrsi = (a, b) => {
+    console.log(izvrsi);
+};
+// let logDetails:(obj:{name:string,age:number})=>void;
+//   type person={name:string,age:number};
+//   logDetails=(drasko:person)=>{
+//     console.log(`$(drasko.name)`);
+//   }
+//   logDetails('gaga');
